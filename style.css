@@ -61,6 +61,9 @@ h1{
     text-align: left;
     height: 100vh;
     background-attachment: scroll;
+    
+    z-index: 1000;
+
 }
 
 .home-section-h1{
@@ -82,6 +85,7 @@ h1{
     padding-left:50px;
     color: rgba(255, 255, 255, 0.384) ;
     padding-top: 30px;
+    font-family: sans-serif;
 
 }
 .download-the-app-button{
@@ -155,3 +159,51 @@ h1{
     color: rgb(161, 158, 158);
     text-align: center;
 }
+/* content section start */
+
+.row{
+    width: 100%;
+    padding: 70px 100px;
+}
+
+.side-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.phone-image{
+    width: 45%;
+}
+
+.phone-image img{
+    width: 100%;
+}
+
+.content-content{
+    width: 55%;
+}
+
+.all-para{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.all-para b{
+    font-size: 21px;
+    color: #222;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.all-para i{
+    
+    font-size: 21px;
+    margin-right: 12px;
+}
+
+/* content section end */
