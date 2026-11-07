@@ -288,7 +288,7 @@ h1{
 
 
 .facts-section{
-    margin-top: 300px;
+    margin-top: 250px;
     background-image: url(./assets/images/building.png);
     background-size: cover;
     background-position: center;
@@ -358,3 +358,106 @@ h1{
     line-height: 1.6;
     margin-top: 5px;
 }
+
+/* another content start */
+
+.another-content{
+    background-color: black;
+    padding: 40px 30px;
+}
+
+.another-heading{
+    text-align: center;
+}
+
+.another-heading h1{
+    color: white;
+    font-size: 36px;
+}
+
+.another-heading h1 span{
+    color: rgb(161, 158, 158);
+}
+
+.another-heading p{
+    color: rgb(161, 158, 158);
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.another-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 100px 0 10px;
+}
+
+.another-image{
+    width: 50%;
+}
+
+.another-image img{
+    width: 100%;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.another-text{
+    width: 48%;
+}
+
+.another-para{
+    color: rgb(161, 158, 158);
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin-bottom: 45px;
+}
+
+.another-para b{
+    color: white;
+    font-size: 17px;
+}
+
+.another-para i{
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+.another-buttons{
+    margin-top: 20px;
+}
+
+.another-download{
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.another-download:hover{
+    background-color: green;
+    color: white;
+}
+
+.another-discover{
+    display: inline-block;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    padding: 14px 30px;
+    margin-left: 8px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.another-discover:hover{
+    box-shadow: 0 0 15px green;
+}
+
+/* another content end */
