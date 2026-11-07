@@ -17,6 +17,12 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+      z-index: 1000;}
+    .hr{
+    width: 85%;
+    height: 1px;
+    background-color: #ccc;
+    margin: 30px auto;
 }
 
 .name{
@@ -61,8 +67,8 @@ h1{
     text-align: left;
     height: 100vh;
     background-attachment: scroll;
-    
-    z-index: 1000;
+      position: relative;
+    z-index: 1
 
 }
 
@@ -80,6 +86,8 @@ h1{
 }
 .mobile-image{
     padding-left: 500px;
+     position: relative;
+    z-index: 0;
 }
 .home-p{
     padding-left:50px;
@@ -158,6 +166,7 @@ h1{
 .content-para{
     color: rgb(161, 158, 158);
     text-align: center;
+     font-family: sans-serif;
 }
 /* content section start */
 
@@ -173,12 +182,16 @@ h1{
     gap: 80px;
 }
 
-.phone-image{
-    width: 45%;
+.phone{position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+   
 }
-
 .phone-image img{
     width: 100%;
+ 
 }
 
 .content-content{
@@ -206,4 +219,67 @@ h1{
     margin-right: 12px;
 }
 
-/* content section end */
+
+
+/*/////// content section end////// */
+.about-content{
+    text-align: center;
+}
+.about-h1{
+    color:black;
+    text-align: center;
+}
+.about-h1 span{
+    color: green;
+}
+.about-para{
+    text-align: center;
+    color: rgb(161, 158, 158);
+    font-family: sans-serif;
+
+}
+.about-h1-2{
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 120px;
+  font-size: 40px;
+     color: rgb(161, 158, 158);
+}
+.about-para-2{
+    font-family: sans-serif;
+    padding-top: 50px;
+    text-align: left;
+    padding-left: 120px;
+  color:  rgba(161, 158, 158, 0.822);
+  
+ 
+}
+
+
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 110px;
+    gap: 40px;
+}
+
+.about-content{
+    width: 55%;
+    text-align: left;
+}
+
+.about-image{
+    width: 40%;
+
+}
+
+.about-image img{
+    width: 100%;
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
