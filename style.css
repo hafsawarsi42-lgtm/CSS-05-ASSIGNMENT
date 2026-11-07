@@ -292,7 +292,7 @@ h1{
     background-image: url(./assets/images/building.png);
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+   
     height: 340px;
     padding: 30px 100px;
     text-align: center;
@@ -336,4 +336,25 @@ h1{
 .fact p{
     font-size: 22px;
     font-family: sans-serif;
+}
+.facts-bottom{
+    background-color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.facts-bottom h1{
+    font-size: 36px;
+    color: black;
+}
+
+.facts-bottom h1 span{
+    color: green;
+}
+
+.facts-bottom p{
+    color: rgb(161, 158, 158);
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin-top: 5px;
 }
