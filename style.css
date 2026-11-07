@@ -285,3 +285,55 @@ h1{
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+
+
+.facts-section{
+    margin-top: 300px;
+    background-image: url(./assets/images/building.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 340px;
+    padding: 30px 100px;
+    text-align: center;
+    background-attachment:scroll;
+}
+
+.facts-heading h1{
+    color: white;
+    font-size: 36px;
+}
+
+.facts-heading p{
+    color: #ccc;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.facts-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.fact{
+    color: white;
+    text-align: center;
+    width: 33%;
+}
+
+.fact i{
+    font-size: 40px;
+}
+
+.fact h2{
+    font-size: 75px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.fact p{
+    font-size: 22px;
+    font-family: sans-serif;
+}
